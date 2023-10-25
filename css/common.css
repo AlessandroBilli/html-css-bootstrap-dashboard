@@ -2,3 +2,17 @@
 /****************
 COMMON
 *****************/
+nav{
+    width: 100vw;
+
+}
+.sidebar{
+    padding-top: 100px;
+    height: 100vh;
+    background-color: #051e34;
+    background-image:url(img/sidebar-bg.png);
+    background-repeat: repeat;
+    background-position: center;
+    
+      
+  }
