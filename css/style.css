@@ -1,2 +1,8 @@
 @import './common.css';
-@import './variables.css'
+@import './variables.css';
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
