@@ -1,3 +1,3 @@
-# html-css-bootstrap-dashboard
+bootstrap-dashboard
 
 Sito fatto interamente con Bootstrap
