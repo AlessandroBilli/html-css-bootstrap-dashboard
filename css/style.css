@@ -20,8 +20,12 @@ body{
 }
 
 .top-bar{
-    padding-top: 4.375rem;
-    padding-left: 1.875rem;
+    
     background-color: #1b72e8;
     width: 100vw;
+}
+
+.table th, .table td {
+    border-left: none; 
+    border-right: none; 
 }

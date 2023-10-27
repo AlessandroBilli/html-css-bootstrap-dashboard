@@ -18,23 +18,25 @@
 <body>
     <header>
         <!--navbar-->
-        <nav class="navbar bg-body-tertiary position-fixed ">
+        <nav class="navbar bg-body-tertiary sticky-top  ">
             <div class="container-fluid">
                 <img src="img/logo.svg" alt="logo" class="d-none d-lg-block d-xl-none">
-                <img src="img/mobile-logo.png" alt="" class="d-none d-sm-block d-md-block 	d-lg-none d-xl-block  logo-mobile">
+                <img src="img/mobile-logo.png" alt=""
+                    class="d-none d-sm-block d-md-block 	d-lg-none d-xl-block  logo-mobile">
                 <form class="d-flex flex-grow-1 p-2" role="search">
                     <input class="form-control me-2 " type="search" placeholder="  Prova a cercare: Lezioni di Lavarel"
-                        aria-label="Search" >
-                        <div class="dropdown">
-                            <button class="borderborder-primary  border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-bell"></i>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                              <li><a class="dropdown-item" href="#">Profilo</a></li>
-                              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                              <li><a class="dropdown-item" href="#">Logout</a></li>
-                            </ul>
-                          </div>
+                        aria-label="Search">
+                    <div class="dropdown">
+                        <button class="borderborder-primary  border-0" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-bell"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Profilo</a></li>
+                            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </div>
 
                 </form>
             </div>
@@ -42,40 +44,235 @@
 
 
         <!--/navbar-->
-        
+
+        <div class="  top-bar text-white">
+            <div class="container  text-start  text-white d-flex flex-wrap">
+                <div class="row">
+                    <div class="col">Boolean</div>
+                    <div class="col">Boolean</div>
+                    <div class="col">Boolean</div>
+                    <div class="col"><button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-plus"></i></button>
+
+                        <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                          <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                          <div class="offcanvas-body">
+                            <p>Try scrolling the rest of the page to see this option in action.</p>
+                          </div>
+                        </div></div>
+                </div>
+
+            </div>
+        </div>
+
     </header>
+
     <main class="d-flex">
+        
         <section>
-            <div class="container sidebar ">
-                <div class="d-flex align-items-center ml-2">
+            <div class="container sidebar sticky-left  ">
+                <div class="d-flex align-items-center ml-2 pt-2">
                     <i class="fa-solid fa-house text-white"></i>
                     <span class="d-none d-lg-block d-xl-none text-white ">Home</span>
                 </div>
-                
+
                 <div class="d-flex align-items-center mt-2 ml-2">
                     <i class="fa-solid fa-chart-simple text-white"></i>
                     <span class="d-none d-lg-block d-xl-none text-white ">Stats</span>
                 </div>
-                
+
                 <div class="d-flex align-items-center mt-2 ml-2">
                     <i class="fa-solid fa-signal text-white"></i>
                     <span class="d-none d-lg-block d-xl-none text-white ">Signals</span>
                 </div>
-                
+
                 <div class="d-flex align-items-center gear">
                     <i class="fa-solid fa-gear text-white"></i>
                     <span class="d-none d-lg-block d-xl-none text-white ml-2">Admin</span>
                 </div>
-                
+
             </div>
         </section>
 
         <section>
-            <div class="top-bar text-white">
-                <h3>Boolean</h3>
+
+        </section>
+
+
+        <section>
+        <div class="container">
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 ">
+                <div class="first-column h-70 col-md-8  p-3  ">
+                    <div class="card card-column-first">
+                        <div class="card-header">
+                            <h3>Prossime Classi</h3>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <div class="table-responsive table-column-first" style="overflow-x: visible;">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">First</th>
+                                                <th scope="col">Last</th>
+                                                <th scope="col">Handle</th>
+                                                <th scope="col">New Column</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                <td>New Data</td>
+                                            </tr>
+
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                <td>New Data</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                <td>New Data</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                <td>New Data</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                <td>New Data</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                <td>New Data</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                <td>New Data</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                <td>New Data</td>
+                                            </tr>
+                                            <!-- Aggiungi altre righe qui se necessario -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+
+
+                    <div class="card mt-3">
+                        <div class="card-header">
+                            <h3>F.A.Q.</h3>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>A well-known quote, contained in a blockquote element.</p>
+                                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source
+                                        Title</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="second-column  p-3 ">
+                    <div class="container card h-70 card-column-second">
+                        <div class="card-header">
+                            <h3>Todo</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="card" style="width: 100%;">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked" checked>
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Kickoff muove classi
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked" checked>
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Lezione su Bootsrap 5 in classe
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked" checked>
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Controllare username github studenti
+                                            </label>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-3 card-stats">
+                        <img src="img/stats.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
+        </div>
+
+
         </section>
     </main>
+
+
+
+
+
 
 
 
